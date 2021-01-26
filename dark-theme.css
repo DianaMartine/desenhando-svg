@@ -1,0 +1,12 @@
+body {
+    color: #eee;
+    background: #121212;
+}
+
+body svg {
+    filter: invert(100%);
+}
+
+button {
+    filter: invert(100%);
+}

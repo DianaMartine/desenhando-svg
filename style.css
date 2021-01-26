@@ -1,0 +1,79 @@
+html {
+  font-size: 10pt;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  display: flex;
+  position: relative;
+  margin: auto;
+  opacity: 70%;
+  width: 70vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+svg:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+path {
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-dasharray: 853;
+  animation: 2s draw forwards;
+}
+
+@keyframes draw {
+  0% {
+    fill-opacity: 0;
+    stroke-dashoffset: 853;
+  }
+
+  70% {
+    fill-opacity: 0;
+    stroke: #000;
+  }
+
+  100% {
+    fill-opacity: 1;
+    stroke-dashoffset: 0;
+    stroke: none;
+  }
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: rgba(0, 0, 0, 0);
+}
+
+button:hover {
+  border: black solid 1px;
+  transition: 2s;
+}
+
+.aside1 {
+  display: block;
+  position: absolute;
+  width: 40vw;
+  height: 90vh;
+  margin-top: 103px;
+  font-size: 1.6em;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+aside a {
+  color: black;
+  font-size: .8em;
+}
