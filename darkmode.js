@@ -8,3 +8,7 @@ btn.addEventListener("click", function() {
     theme.href = "light-theme.css";
   }
 });
+
+function reloadThePage() {
+  window.location.reload();
+} 

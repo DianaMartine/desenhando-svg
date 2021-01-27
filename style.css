@@ -54,11 +54,30 @@ button {
   justify-content: center;
   margin: auto;
   border: rgba(0, 0, 0, 0);
+  padding: 5px;
 }
 
-button:hover {
+.btn-toggle:hover {
+  background: blueviolet;
+  color: white;
   border: black solid 1px;
-  transition: 2s;
+  transition: 1s;
+}
+
+.reset {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: rgb(5, 148, 196);
+  padding: 5px;
+}
+
+.reset:hover {
+  background: blueviolet;
+  color: white;
+  border: black solid 1px;
+  transition: 1s;
 }
 
 .aside1 {
