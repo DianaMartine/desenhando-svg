@@ -5,10 +5,13 @@ html {
 
 a {
   text-decoration: none;
+  display: flex;
+    width: 40rem;
+    margin: auto;
 }
 
 svg {
-  display: flex;
+  display: block;
   position: relative;
   margin: auto;
   opacity: 70%;
@@ -20,14 +23,14 @@ svg {
 
 svg:hover {
   opacity: 1;
-  transition: 1s;
+  transition: .5s;
 }
 
 path {
   stroke: #000;
-  stroke-width: 2px;
+  stroke-width: .5rem;
   stroke-dasharray: 853;
-  animation: 2s draw forwards;
+  animation: 3s draw forwards;
 }
 
 @keyframes draw {
@@ -78,21 +81,4 @@ button {
   color: white;
   border: black solid 1px;
   transition: 1s;
-}
-
-.aside1 {
-  display: block;
-  position: absolute;
-  width: 40vw;
-  height: 90vh;
-  margin-top: 103px;
-  font-size: 1.6em;
-  align-items: center;
-  justify-content: center;
-  text-align: right;
-}
-
-aside a {
-  color: black;
-  font-size: .8em;
 }

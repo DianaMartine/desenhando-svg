@@ -6,7 +6,3 @@ body {
 body svg {
     filter: invert(100%);
 }
-
-button {
-    filter: invert(100%);
-}
